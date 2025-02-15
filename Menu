@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eatsy Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Our Menu</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order Now</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Choose Your Meal Kit</h2>
+        <ul>
+            <li>Burgundy (Keto) - <b>Grilled Salmon & Avocado Salad</b></li>
+            <li>Red (Red Meat Lovers) - <b>Beef Steak & Roasted Veggies</b></li>
+            <li>Orange (Chicken Lovers) - <b>Grilled Chicken & Quinoa</b></li>
+            <li>Blue (Seafood Lovers) - <b>Shrimp Pasta</b></li>
+            <li>Pink (Menstrual Cycle Diet) - <b>Iron-Rich Lentil Soup</b></li>
+            <li>Yellow (Gym Meals) - <b>Protein-Packed Chicken Bowl</b></li>
+            <li>Black (All-In-One) - <b>Chef’s Special</b></li>
+        </ul>
+    </section>
+</body>
+</html>
