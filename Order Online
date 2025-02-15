@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now - Eatsy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Place Your Order</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order Now</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <form action="https://formspree.io/f/example" method="POST">
+            <label>Name:</label>
+            <input type="text" name="name" required>
+
+            <label>Email:</label>
+            <input type="email" name="email" required>
+
+            <label>Select Your Meal Kit:</label>
+            <select name="meal-kit">
+                <option value="burgundy">Keto</option>
+                <option value="red">Red Meat Lovers</option>
+                <option value="orange">Chicken Lovers</option>
+                <option value="blue">Seafood Lovers</option>
+                <option value="pink">Menstrual Cycle Diet</option>
+                <option value="yellow">Gym Meals</option>
+                <option value="black">All-In-One</option>
+            </select>
+
+            <label>Address:</label>
+            <input type="text" name="address" required>
+
+            <button type="submit">Order Now</button>
+        </form>
+    </section>
+</body>
+</html>
